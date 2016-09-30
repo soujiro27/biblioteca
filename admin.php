@@ -18,17 +18,18 @@ else
   <head>
     <meta charset="utf-8">
     <title>Panel de Administrador</title>
+    <link rel="stylesheet" href="estilo.css" >
   </head>
   <body>
       <header>
         <h1>Panel de Administrador</h1>
         <nav>
-          <ul>
+          <ul class="menu">
             <li>Altas
-              <ul>
-                  <li>Autor</li>
-                  <li>Editorial</li>
-                  <li>Libro</li>
+              <ul class="submenu">
+                  <li class="autor">Autor</li>
+                  <li class="editorial">Editorial</li>
+                  <li class="libro">Libro</li>
               </ul>
             </li>
             <li>Bajas</li>
@@ -45,6 +46,28 @@ else
                 <input type="text" placeholder="Nacionalidad" required id="nacionalidad">
                 <input type="submit"  value="Dar Alta">
               </form>
+          </div>
+          <div class="editorial">
+            <form id="formEditorial">
+              <input type="text"  placeholder="Editorial" id="nombreEditorial">
+              <input type="submit"  value="Dar Alta">
+            </form>
+          </div>
+
+          <div class="libros">
+            <form class="formLibros" >
+              <input type="text" placeholder="Titulo" id="titulo">
+              <select class="autor">
+                <option value="0">Escoga Autor</option>
+              </select>
+              <select class="editorial" >
+                <option value="0">Escoga Editorial</option>
+              </select>
+              <input type="text" placeholder="Categoria" id="categoria">
+              <input type="number" placeholder="Precio" id="precio">
+              <input type="submit" value="Alta Libro">
+            </form>
+
           </div>
       </section>
 
