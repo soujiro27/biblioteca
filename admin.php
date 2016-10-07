@@ -71,6 +71,28 @@ else
           </div>
       </section>
 
+      <section class="bajas">
+        <form class="bajas-form" >
+          <input type="text" id="bajas-form-search" placeholder="Busqueda por Autor" required>
+          <input type="submit"  value="Buscar">
+        </form>
+        <table id="bajas">
+          <thead>
+            <th>Titulo</th>
+            <th>Autor</th>
+            <th>Editorial</th>
+            <th>Categoria</th>
+            <th>precio</th>
+            <th>Eliminar</th>
+          </thead>
+          <tbody>
+            
+          </tbody>
+        </table>
+      </section>
+
+
+
       <script type="text/javascript" src="jquery.js"></script>
       <script type="text/javascript" src="codigo.js"></script>
   </body>
