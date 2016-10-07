@@ -187,7 +187,7 @@ function elimina()
       data: {id: id}
     })
     .done(function() {
-    $(dwrfrfrfe);  
+    console.log("master"); 
     });
 
   }
