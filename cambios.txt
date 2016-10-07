@@ -1,0 +1,29 @@
+commit db8a8553728fa68fde51b95becea69ce2a6a0b92
+Author: soujiro27 <jc.raus27@gmail.com>
+Date:   Fri Oct 7 14:41:41 2016 -0500
+
+    borrando linea de table jquery
+
+commit 0629a35da09ab9420156f35b37aac4f52ff5286e
+Author: soujiro27 <jc.raus27@gmail.com>
+Date:   Fri Oct 7 14:40:20 2016 -0500
+
+    inician repo
+
+commit ce15bdd76cb4b82ace258e542eac507ababc3e41
+Author: soujiro27 <jc.raus27@gmail.com>
+Date:   Fri Sep 30 13:26:34 2016 -0500
+
+    con estilos ya terminados
+
+commit 7d417b2ab04bd079d803987d3e76107a1f9965aa
+Author: soujiro27 <jc.raus27@gmail.com>
+Date:   Fri Sep 30 13:25:26 2016 -0500
+
+    altas terminado con mennu
+
+commit 3a04a19593ede58c4b70012c8754dc17c3b33d0a
+Author: soujiro27 <jc.raus27@gmail.com>
+Date:   Thu Sep 22 08:44:42 2016 -0500
+
+    inicio de repo
